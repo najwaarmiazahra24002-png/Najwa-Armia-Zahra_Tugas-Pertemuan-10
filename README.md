@@ -6,10 +6,10 @@ Project ini merupakan tugas praktikum Laravel tentang Migration database, Model,
   
 ## Fitur
 ### Tugas 1 - Migration Tabel Kategori 
-  ![Migrate](images/Tugas1.png)
+  ![Migrate](Tugas1.png)
 
 ### Tugas 2 - Model Accessor & Scope
-  ![Model](images/Tugas2.png)
+  ![Model](Tugas2.png)
 
 - Maaf pak sebelumnya, ada yg saya perbaiki lagi 
 ---
