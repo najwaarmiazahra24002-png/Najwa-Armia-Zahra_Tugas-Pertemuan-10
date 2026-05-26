@@ -47,38 +47,6 @@ class Buku extends Model
     ];
  
     /**
-     * Accessor untuk format harga.
-     */
-    public function getHargaFormatAttribute(): string
-    {
-        return 'Rp ' . number_format($this->harga, 0, ',', '.');
-    }
- 
-    /**
-     * Accessor untuk status ketersediaan.
-     */
-    public function getTersediaAttribute(): bool
-    {
-        return $this->stok > 0;
-    }
- 
-    /**
-     * Scope untuk filter buku tersedia.
-     */
-    public function scopeTersedia($query)
-    {
-        return $query->where('stok', '>', 0);
-    }
- 
-    /**
-     * Scope untuk filter berdasarkan kategori.
-     */
-    public function scopeKategori($query, $kategori)
-    {
-        return $query->where('kategori', $kategori);
-    }
-
-    /**
      * Tugas 2: Accessor untuk badge status stok.
      */
     public function getStatusStokBadgeAttribute(): string 
