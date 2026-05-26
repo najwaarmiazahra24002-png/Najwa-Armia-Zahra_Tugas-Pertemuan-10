@@ -11,5 +11,5 @@ Project ini merupakan tugas praktikum Laravel tentang Migration database, Model,
 ### Tugas 2 - Model Accessor & Scope
   ![Model](images/Tugas2.png)
 
-Maaf pak sebelumnya, ada yg saya perbaiki lagi 
+- Maaf pak sebelumnya, ada yg saya perbaiki lagi 
 ---
